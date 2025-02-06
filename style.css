@@ -1,0 +1,45 @@
+* {
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+body {
+    background-color: blueviolet;
+    overflow: hidden;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.loveGif {
+    width: 200px;
+    mix-blend-mode: color-burn;
+    margin: auto;
+    display: block;
+}
+h1 {
+    font-size: 3rem;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+button {
+ font-size: 2rem;
+ padding:  1rem 2rem;
+ border-radius: 1rem;
+ border: none;
+}
+.success {
+    background-color: rgb(69, 195, 94);
+    color: whitesmoke;
+}
+.failure {
+    background-color: tomato;
+    color: whitesmoke;
+
+}
